@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    background-color: black;
+    color: wheat;
+    
+    position: fixed;
+}
+.logo{
+    height: 50px;
+    max-height: 100px;
+    display: block;
+    margin-left: 20px;
+    padding: 5px;
+    
+    
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+  
+   
+
+ 
+
+}
+.nav-link a{
+     text-decoration:none ;
+     color: wheat;
+     font-size: 30px;
+    
+}
+.nav-link li{
+ margin: 0 15px;
+}
+.home{
+    display: flex;
+    gap: 40px;
+
+}
+.hero-image{
+    width: 40%;
+    /* border: solid black 0.4px; */
+    height: 400px;
+   
+}
+
+.hero-image img{
+    width: 60%;
+    border-radius: 700px;
+    height: 400px;
+}
+
+.hero-overlay{
+    width: 50%;
+    height: 400px;
+    /* border: solid black 0.5px; */
+    margin-right: 10px;
+}
+.hero-overlay h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-overlay button{
+    font-size: 30px;
+    border: solid black 1px;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+.hero-overlay button :hover{
+    background-color: chocolate;
+}
+.hero-overlay a{
+    color: wheat;
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.about-container{
+    display:flex;
+    justify-content: space-evenly;
+    width:90%;
+    gap:5px;
+    align-items: center;
+ 
+
+}
+.about-item{
+    border:solid black 0.4px;
+    width: 90%;
+    height:600px;
+    margin-left: 150px;
+    background-color: black;
+    border-radius: 10px;
+
+
+}
+.about-container :hover{
+    background-color: #4b1d1d;
+}
+.about-item img{
+  
+    margin-left: 160px;
+   width: 50px;
+   height: 50px;
+}
+.about-item h4{
+margin-left:130px;
+font-size:25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: wheat;
+
+
+}
+.about-item p{
+    color: wheat;
+}
+.patner-container img{
+    width: 250px;
+    height: 125px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(48, 45, 45);
+     
+}
+.footercontainer{
+    width:100%
+    /* padding:70px; */
+
+}
+.socialicons{
+    display:flex;
+    justify-content:center ;
+
+    
+}
+.socialicons a{
+    text-decoration:none;
+     padding:10px;
+    background-color:wheat
+    /* margin:10px; */
+    /* border-radius:50%; */
+
+}
+    
+
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity:0.9;
+}
+
+/*Hover Effects on Social Media  icons*/
+.socialIcons a:hover{
+background-color:wheat ;
+transition:1s;
+
+}
+.socialicons a:hover i{
+    color:white;
+    transition:0.5s;
+
+}
+.footerNav{
+    margin:30px 0;
+       
+}
+.footerNav ul{
+    display:flex;
+    justify-content: center;
+
+    
+}
+.footerNav ul li a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size: size 1.3cm;
+    opacity:0.7;
+    transition:0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity:1;
+
+}
+  .footerbottom p{
+    background-color:black;
+    /* padding 20px; */
+    text-align: center;
+
+
+  }
+   .footerbottom p{
+    color:white;
+
+   }
+ .designer{
+    opacity:0.7;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:400;
+    margin:0px 5px;
+
+
+ }
+ 
+
+
+
+
+
+
+
+    
+      
+
+      
+
+
