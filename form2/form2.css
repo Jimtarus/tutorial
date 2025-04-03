@@ -1,0 +1,50 @@
+.form-container{
+    
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    display: flex;
+    height: 650px;
+}
+.form-child {
+    
+    width:100%;
+}
+
+.form-child form{
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+margin-top:50px;
+}
+.form-child legend{
+align-items: center;
+font-size: 30px;
+color:rgb(204, 33, 133)
+}
+.form-child input{
+align-items: center;
+border-radius:10px;
+
+}
+
+.form-child label{
+align-items:center;
+color:orange;
+}
+.form-child button{
+color:black;
+background-color:pink ;
+}
+.form-child p{
+color:lightblue;
+}
+.flower{
+    
+    width:100%;
+}
+.flower img{
+    width:100%;
+    height:420px;
+    
+}

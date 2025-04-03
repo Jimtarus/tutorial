@@ -8,16 +8,16 @@
     display: flex;
    align-items: center;
    justify-content: space-between;
-    background-color: black;
+    background-color:black;
     color: wheat;
     
     position: fixed;
 }
 .logo{
-    height: 50px;
-    max-height: 100px;
+    height: 30px;
+    max-height: 30px;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 5px;
     
     
@@ -56,6 +56,7 @@
     width: 60%;
     border-radius: 700px;
     height: 400px;
+    margin-left:100px;
 }
 
 .hero-overlay{
@@ -77,15 +78,20 @@
     color:wheat;
 
 }
+.hero-overlay :hover{
+    background-color:#4b1d1d;
+
+}
 .hero-overlay button{
     font-size: 30px;
-    border: solid black 1px;
+    border: solid wheat 1px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-left:100px;
    
 }
 .hero-overlay button :hover{
-    background-color: chocolate;
+    background-color: #4b1d1d;
 }
 .hero-overlay a{
     color: wheat;
@@ -205,6 +211,9 @@ border-radius:100px;
     color: wheat;
 
 }
+.content :hover{
+    background-color:#4b1d1d;
+}
 .box{
     color: wheat;
      align-items:center;
@@ -217,6 +226,13 @@ border-radius:100px;
     font-size: 30px;
 
 }
+
+    
+
+.box img{
+    width:20px;
+    height:20px;
+}
 .form-container{ 
     justify-content: center;
     align-items:centre;
@@ -228,6 +244,16 @@ border-radius:100px;
     
     
 }
+.inputBox button{
+    color:wheat;
+    border-color: wheat;
+    background-color:black;
+    border-radius:4px
+}
+
+    
+
+
 .section-container{
     background-color: black;
     border: solid;
@@ -252,9 +278,10 @@ border-radius:100px;
 
 
 }
-.inputBox{
-    border-radius:100px;
-}
+
+    
+    
+
 .main{
     background-color:wheat;
 
@@ -272,6 +299,9 @@ border-radius:100px;
 
     
 
+}
+.footer-container :hover{
+    background-color:#4b1d1d;
 }
 .socialicons{
     display:flex;
@@ -358,6 +388,11 @@ transition:0.5s;
  .contact-form h2{
     font-size:60px;
  }
+ .contact-form .inputBox{
+    border-radius:30px;
+ }
+ 
+ 
  
 
 

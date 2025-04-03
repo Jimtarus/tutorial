@@ -1,0 +1,62 @@
+.input-container{
+    
+ display:flex;
+ color:pink;
+ margin-left:200px;
+
+}
+.one{
+    
+   color:pink;
+   margin-left:100px;
+
+}
+.two{
+ color:pink; 
+ margin-left:10px;  
+  
+}
+.three{
+color:pink;
+padding:20px;
+align-items:center;
+
+justify-content:center;
+width:40%;
+height:400px;
+margin-left:200px;
+
+
+}
+.three label{
+    font-size:30px;
+}
+
+
+
+    
+
+
+
+
+.address-container {
+    color:pink;
+    margin-left:200px;
+}
+
+.form-container h2{
+    color:rgb(38, 209, 209);
+    margin-left:400px;
+    
+    
+}button{
+  background-color:rgb(38, 209, 209);
+  color:pink;
+  border-radius:5px;
+  margin-left:500px;
+}
+
+
+
+
+    
